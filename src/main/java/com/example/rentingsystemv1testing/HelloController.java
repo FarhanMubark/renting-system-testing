@@ -12,7 +12,7 @@ public class HelloController {
     public String getHellow(){
 
 
-        return "hello farhan";
+        return "hello farhan 123";
     }
 
     @GetMapping("/get/welcome")
@@ -21,6 +21,11 @@ public class HelloController {
 
     }
 
+    @GetMapping("/get/welcome/v2")
+    public String get2(){
+        return "Welcome farhan azoz feras";
+
+    }
 
 
 }
